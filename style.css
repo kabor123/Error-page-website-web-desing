@@ -1,0 +1,106 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+#logo
+{
+    position: absolute;
+    left: 5%;
+    top: 0%;
+    font-family: Arial;
+    font-size: 2em;
+}
+.box
+{
+    position: absolute;
+    top: 13%;
+    left: 8%;
+}
+#nomber
+{
+    font-size: 5.2em;
+    color: black;
+    font-weight: 500;
+    height: 20px;
+}
+.box h1 span
+{
+    font-family: Arial;
+    font-weight: 700;
+    font-size: 2em;
+}
+#lost
+{
+    text-decoration: underline #5491da;
+    text-decoration-style: unset;
+}
+.box p
+{
+    color: #9c9c9c;
+    width: 37%;
+    font-family: Arial;
+}
+#one
+{
+    background: #5491da;
+    display: inline-flex;
+    border-radius: 10px;
+    line-height: 1em;
+    color: #fff;
+    border: none;
+    padding: 15px 27px;
+    margin-top: 4%;
+    font-size: 0.9em;
+    font-family: Arial;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+#two
+{
+    background: none;
+    display: inline-flex;
+    border-radius: 10px;
+    line-height: 1em;
+    color: #5491da;
+    border: 2px solid #5491da;
+    padding: 13px 40px;
+    margin-top: 4%;
+    font-size: 0.9em;
+    font-family: Arial;
+    letter-spacing: 1px;
+    cursor: pointer; 
+}
+.menu ul
+{
+    position: relative;
+    margin-left: 68%;
+    margin-top: 2%;
+}
+.menu ul li
+{
+    background: none;
+    list-style: none;
+    display: inline-flex;
+    color: black;
+    font-size: 0.9em;
+    list-style: none;
+    cursor: pointer;
+    margin-left: 10%;
+    font-family: Arial;
+}
+@media (max-width: 452px)
+{
+    #img {
+        position: absolute;
+        left: 40%;
+        top: 60%;
+        width: 59%;
+    }
+    .menu ul li
+    {
+        line-height: 500%;
+    }
+}
